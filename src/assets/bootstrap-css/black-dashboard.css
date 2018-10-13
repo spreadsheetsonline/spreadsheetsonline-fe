@@ -9984,7 +9984,7 @@ fieldset[disabled]
     padding: 0; }
   .footer .nav {
     display: inline-block;
-    float: left;
+    /* float: left; */
     margin-bottom: 0;
     padding: 0;
     list-style: none; }
@@ -10195,7 +10195,8 @@ fieldset[disabled]
     font-size: 4.25rem; }
 
 .icon-xl + .icon-text {
-  width: calc(100% - $icon-size-xl - 1); }
+  width: calc(100% - 10 - 1);
+}
 
 .icon-lg {
   width: 3.6rem;
@@ -10204,7 +10205,7 @@ fieldset[disabled]
     font-size: 2.85rem; }
 
 .icon-lg + .icon-text {
-  width: calc(100% - $icon-size-lg - 1); }
+  width: calc(100% - 30 - 1); }
 
 .icon-sm {
   width: 1.875rem;
@@ -10213,7 +10214,7 @@ fieldset[disabled]
     font-size: 1.125rem; }
 
 .icon-sm + .icon-text {
-  width: calc(100% - $icon-size-sm - 1); }
+  width: calc(100% - 5 - 1); }
 
 .icon-shape {
   padding: 12px;
@@ -15125,6 +15126,7 @@ html:not([dir="rtl"]) .noUi-horizontal .noUi-handle {
   -moz-transition: 300ms ease 0s;
   -ms-transition: 300ms ease 0s;
   -o-transform: 300ms ease 0s;
+  transform: 300ms ease 0s;
   transition: 300ms ease 0s; }
 
 .noUi-active {

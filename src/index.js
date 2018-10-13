@@ -1,6 +1,5 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './assets/index.css';
 import './assets/bootstrap-css/black-dashboard.css';
 import App from './components/App';
 import * as serviceWorker from './serviceWorker';
