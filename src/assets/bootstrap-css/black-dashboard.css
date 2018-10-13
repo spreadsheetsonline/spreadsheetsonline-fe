@@ -10186,7 +10186,7 @@ fieldset[disabled]
 
 .icon + .icon-text {
   padding-left: 1rem;
-  width: calc(100% - auto - 1); }
+  width: calc(100% - 10 - 1); }
 
 .icon-xl {
   width: 5rem;
