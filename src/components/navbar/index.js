@@ -9,7 +9,7 @@ class Navbar extends React.Component {
         <div className="container">
           <div className="navbar-translate">
             <a className="navbar-brand" href="/presentation.html">
-              Brand
+              Anaxi Prime
             </a>
             <button
               className="navbar-toggler"
