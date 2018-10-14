@@ -4,8 +4,8 @@
   "icons": [
     {
       "src": "favicon.ico",
-      "sizes": "64x64 32x32 24x24 16x16",
-      "type": "image/x-icon"
+      "sizes": "64x64",
+      "type": "image/ico"
     },{
       "src": "eveLogo.png",
       "type": "image/png",
@@ -13,7 +13,7 @@
     },{
       "src": "eveLogo128.png",
       "type": "image/png",
-      "sizes": "128x128"
+      "sizes": "192x192"
     }
   ],
   "start_url": "/",
