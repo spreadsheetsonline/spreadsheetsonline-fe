@@ -49,10 +49,6 @@ export function register(config) {
         registerValidSW(swUrl, config);
       }
     });
-
-    window.addEventListener('beforeinstallprompt', (e) => {
-      return e
-    })
   }
 }
 
