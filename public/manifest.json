@@ -5,7 +5,7 @@
     {
       "src": "favicon.ico",
       "sizes": "64x64",
-      "type": "image/ico"
+      "type": "image/x-icon"
     },{
       "src": "eveLogo.png",
       "type": "image/png",
