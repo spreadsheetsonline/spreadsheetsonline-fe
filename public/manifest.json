@@ -1,24 +1,23 @@
 {
   "short_name": "Eve Sheets",
-  "name": "Just Another Eve Online App",
+  "name": "Spreadsheets Online",
   "icons": [
     {
       "src": "favicon.ico",
       "sizes": "64x64 32x32 24x24 16x16",
       "type": "image/x-icon"
     },{
-      "src": "A192.png",
-      "type": "image/png",
-      "sizes": "192x192"
-    },
-    {
-      "src": "A512.png",
+      "src": "eveLogo.png",
       "type": "image/png",
       "sizes": "512x512"
+    },{
+      "src": "eveLogo128.png",
+      "type": "image/png",
+      "sizes": "128x128"
     }
   ],
   "start_url": "/",
   "display": "standalone",
-  "theme_color": "#000000",
-  "background_color": "#ffffff"
+  "theme_color": "#e14eca",
+  "background_color": "#344675"
 }
