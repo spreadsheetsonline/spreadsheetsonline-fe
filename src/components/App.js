@@ -17,8 +17,8 @@ class App extends Component {
             <Navbar />
             <div className="content">
               <div className="container-fluid">
-            <Route exact path='/callback' component={Callback}/>
-            <SecuredRoute path="/profile" component={Profile} />
+                <Route exact path='/callback' component={Callback} />
+                <SecuredRoute path="/profile" component={Profile} />
                 <Route exact path="/" component={LoginPage} />
               </div>
             </div>
