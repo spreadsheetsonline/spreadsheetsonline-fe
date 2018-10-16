@@ -1,7 +1,6 @@
 import React from 'react';
 import Infographic from './Infographic'
 import cardPrimary from '../../assets/img/card-primary.png'
-import { addUser } from '../../actions'
 import { connect } from 'react-redux';
 import Auth0 from '../auth'
 

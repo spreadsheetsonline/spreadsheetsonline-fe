@@ -20,8 +20,8 @@
     "remote-redux-devtools": "^0.5.13"
   },
   "scripts": {
-    "start": "set HTTPS=true && react-scripts start",
-    "build": "set HTTP=true && react-scripts build",
+    "start": "HTTPS=true && react-scripts start",
+    "build": "HTTP=true && react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
