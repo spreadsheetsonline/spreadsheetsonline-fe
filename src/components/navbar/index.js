@@ -1,16 +1,16 @@
 import React from "react";
 import NavbarList from "./NavbarList";
 import NavSearchBar from "./NavSearchBar";
-
+import {Link, withRouter} from 'react-router-dom';
 class Navbar extends React.Component {
   render() {
     return (
       <nav className="navbar navbar-expand-lg bg-primary">
         <div className="container">
           <div className="navbar-translate">
-            <a className="navbar-brand" href="/presentation.html">
+            <Link className="navbar-brand" to="/">
               Anaxi Prime
-            </a>
+            </Link>
             <button
               className="navbar-toggler"
               type="button"
@@ -33,4 +33,4 @@ class Navbar extends React.Component {
   }
 }
 
-export default Navbar;
+export default withRouter(Navbar);

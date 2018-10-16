@@ -8,7 +8,7 @@ export default class LoginNameInput extends Component {
                     <div className="input-group-text">
                     </div>
                 </div>
-                <input type="text" className="form-control" placeholder={this.props.plchldr} />
+                <input type="text" id="userName" className="form-control" placeholder={this.props.plchldr} />
             </div>
         );
     }
