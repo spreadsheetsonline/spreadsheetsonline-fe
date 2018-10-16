@@ -20,7 +20,7 @@
     "remote-redux-devtools": "^0.5.13"
   },
   "scripts": {
-    "build": "echo -e 'AUTH_DOMAIN=$AUTH_DOMAIN\nAUTH_CLIENT=$AUTH_CLIENT\nAUTH_CALLCBACK=$AUTH_CALLBACK > .env && HTTPS=true && react-scripts start'",
+    "build": "echo AUTH_DOMAIN=$AUTH_DOMAIN'\n'AUTH_CLIENT=$AUTH_CLIENT'\n'AUTH_CALLCBACK=$AUTH_CALLBACK > .env && HTTPS=true && react-scripts build",
     "start": "HTTP=true && react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
